@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Ground Overlays</title>
+    <head>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Days+One|Montserrat" rel="stylesheet">
+ 
+  </head>
+  <body>
+  <div class = "wrapper">
+
+  <div class = "neighborhoodName"> <h1 align = "center" id="neighborhoodName"> </h1></div>
+
+  <!--<input type=text id='searchPlacesText'>
+  <button id='searchPlacesButton'>Search in neighborhood</button>-->
+
+  <div id="map" class= "neighborhoodMap"></div>
+
+  <div id="neighborhoodInfo" class = "neighborhoodBox"><h2>About the Neighborhood:</h2> </div>
+
+  <div id = "neighborhoodImage" class = "neighborhoodImage"> </div>
+
+  <div class = "averageHomePrice"> <h2 align = "center" > Average Home Price </h2> <p  class="homePrice"> </p></div>
+
+  <div class = "topRestaurants"> <h2 align = "center"> Top Restaurants </h2><hr> </div>
+  </div>
+
+
+  
+
+
+
+
+  <script src="assets/js/neighborhood.js"></script>
+  <script src="assets/js/initVars.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBb44GEujIrnkFexqREwJEXfrOvy5MYlJo&callback=initMap&libraries=places,visualization">
+    </script>
+  </body>
+  </html>
